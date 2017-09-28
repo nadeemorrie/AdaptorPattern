@@ -1,12 +1,14 @@
-<?php 
+<?php
 
-class Book implements BookInterface {
-
-	public function open() {
+class Book implements BookInterface
+{
+	public function open()
+	{
 		var_dump('opening the book');
 	}
 
-	public function turnPage() {
+	public function turnPage()
+	{
 		var_dump('turning the page');
 	}
 }

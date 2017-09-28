@@ -1,12 +1,15 @@
 <?php
 
-class Book {
+class Book
+{
 
-	public function open() {
+	public function open()
+	{
 		var_dump('opening the book');
 	}
 
-	public function turnPage() {
+	public function turnPage()
+	{
 		var_dump('turning the page');
 	}
 }

@@ -1,12 +1,15 @@
-<?php 
+<?php
 
-	class Kindle implements eReaderInterface {
+	class Kindle implements eReaderInterface
+	{
 
-		public function turnOn() {
+		public function turnOn()
+		{
 			var_dump('turn on kindle');
 		}
 
-		public function pressNextButton() {
+		public function pressNextButton()
+		{
 			var_dump('press next button');
 		}
 
